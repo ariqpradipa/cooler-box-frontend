@@ -1,0 +1,38 @@
+:root {
+    --map-tiles-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .map-tiles {
+      filter: var(--map-tiles-filter, none);
+    }
+  }
+  
+  .button-map {
+    pointer-events: auto;
+  }
+  
+  
+  .custom-popup .leaflet-popup-content-wrapper {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #5038BC;
+  }
+  
+  .custom-popup .leaflet-popup-tip {
+    background-color: #5038BC;
+  }
+  
+  .custom-popup .leaflet-popup-close-button {
+    display: none;
+  }
+  
+  .custom-toast {
+    position: absolute !important;
+    top: 51px !important;
+    right: 0px !important;
+    left: 0px !important;
+    background-color: #5038BC !important;
+  }
+  
