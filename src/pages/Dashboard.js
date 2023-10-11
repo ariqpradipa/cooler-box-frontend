@@ -34,6 +34,10 @@ export default function Dashboard() {
         }
     }, [client]);
 
+    useEffect(() => {
+
+    }, [iotLocation]);
+
     const generateRandomString = () => {
 
         const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[{]};:,<.>/?";
