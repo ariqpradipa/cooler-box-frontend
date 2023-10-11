@@ -13,8 +13,8 @@ const center = [-6.213082, 106.618501]; // Latitude and longitude
 const zoom = 13;
 export default function Dashboard() {
 
-    const [temperature, setTemperature] = useState(25);
-    const [humidity, setHumidity] = useState(80);
+    const [temperature, setTemperature] = useState(0);
+    const [humidity, setHumidity] = useState(0);
     const [expectedTemperature, setExpectedTemperature] = useState(20);
     const [iotLocation, setIotLocation] = useState(center);
 
